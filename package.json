@@ -1,0 +1,23 @@
+{
+  "name": "blog_project",
+  "version": "1.0.0",
+  "description": "This is a blog practice project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://renyunbo:5804060147ren@github.com/renyunbo/blog_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renyunbo/blog_project/issues"
+  },
+  "homepage": "https://github.com/renyunbo/blog_project#readme",
+  "dependencies": {
+    "loadsh": "0.0.4"
+  }
+}
