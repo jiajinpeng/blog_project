@@ -1,0 +1,15 @@
+MySQL介绍、安装和使
+
+nodejs连接MySQL
+
+API连接MySQL
+
+
+为何使用MySQL而不是mogondb
+    1.MySQL是企业内最常用的存储工具，一般都有专人运维
+    2.MySQL也是社区内最常用的储存工具，有问题随时可查
+
+MySQL workbench
+    操作MySQL的客户端a
+
+    
