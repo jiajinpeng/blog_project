@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/renyunbo/blog_project#readme",
   "dependencies": {
-    "loadsh": "0.0.4"
-  }
+    "loadsh": "0.0.4",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
 }
