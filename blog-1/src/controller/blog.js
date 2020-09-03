@@ -1,4 +1,6 @@
 const { exec } = require('../db/mysql');
+const {xss} = require('xss');
+
 // 获取博客列表
 const getList = (author, keyword) => {
     let sql = `select * from blogs where 1=1 `;
@@ -23,7 +25,9 @@ const getDetail = (id) => {
 }
 // 新建一条博客
 const newBlog = ((blogData = {}) => {
-    const {title,content,author} = blogData;
+    const {content,author} = blogData;
+    const title = xss(blogData.title);
+
     const createtime = +new Date();
     const sql = `
         insert into blogs (title,content,createtime,author)
